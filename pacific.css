@@ -17,6 +17,7 @@ h1{
 }
 
 nav{
+    background-color: #BBDEFB;
     color: #bbdefb;
     font-weight: bold;
 }
@@ -39,4 +40,10 @@ footer{
     font-size: .70em;
     font-style: italic;
     text-align: center;
+}
+
+#wrapper{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
 }
