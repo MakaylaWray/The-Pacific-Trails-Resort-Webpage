@@ -1,7 +1,8 @@
+*{
+    box-sizing: border-box;
+}
 body{
-    background-color: #90C7E3;
-    background-image: linear-gradient(#fff,#90C7e3);
-    background-repeat: no-repeat;
+    background-color: #EAEAEA;
     color: #666666;
     font-family: Verdana, Arial, sans-serif;
     
@@ -67,7 +68,7 @@ footer{
     width: 80%;
     margin-right: auto;
     margin-left: auto;
-    background-color: #fff;
+    background-image: linear-gradient(#fff,#90C7e3);
     min-width: 960px;
     max-width: 2048px;
     box-shadow: 5px 5px 5px black;
