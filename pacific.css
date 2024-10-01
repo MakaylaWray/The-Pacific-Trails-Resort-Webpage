@@ -21,6 +21,7 @@ h1{
     padding-top: 0.5em;
     font-size:  3em;
     letter-spacing: 0.25em;
+    color: #fff;
 }
 
 nav{
@@ -33,20 +34,25 @@ nav{
     width: 160px;
     padding: 0;
     font-size: 1.2em;
+    position: fixed;
 }
-nav a {
+nav a, a {
     text-decoration: none;
 }
 nav a:link{
-    color: #5C7FA3;
+    color: #fff;
 }
 nav a:visited{
-    color: #344873;
+    color: #fff;
 }
 nav a:hover{
-    color: #A52A2A;
+    color: #90C7E3;
 }
 
+nav ul{
+    list-style: none;
+    padding-left: 1em;
+}
 h2{
     color: #1976D2;
     font-family: Georgia, sans-serif;
@@ -67,6 +73,8 @@ footer{
     font-style: italic;
     text-align: center;
     padding: 1em;
+    background-color: #fff;
+    margin-left: 170px;
 }
 
 #homehero{
@@ -74,6 +82,7 @@ footer{
     background-image: url('coast.jpg');
     background-size: 100% 100%;
     background-repeat: none;
+    margin-left: 170px;
 }
 
 #wrapper{
@@ -93,6 +102,9 @@ h3{
 main{
     padding-left: 2em;
     padding-right: 2em;
+    background-color: #fff;
+    margin-left: 170px;
+    overflow: auto;
 }
 
 #trailhero{
@@ -100,5 +112,17 @@ main{
     background-image: url('trail.jpg');
     background-size: 100% 100%;
     background-repeat: none;
+    margin-left: 170px;
 
+}
+
+#yurhero{
+    margin-left: 170px;
+}
+
+section{
+    float: left;
+    width: 33%;
+    padding-left: 2em;
+    padding-right: 2em;
 }
