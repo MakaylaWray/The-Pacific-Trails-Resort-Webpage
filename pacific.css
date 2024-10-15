@@ -136,6 +136,33 @@ section{
     display: none;
 }
 
+table{
+    border: 1px solid;
+    border-color: #3399CC;
+    border-width: 90%;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td, th{
+    padding: 5px;
+    border: 1px solid;
+    border-color: #3399CC;
+}
+
+td{
+    text-align: center;
+}
+
+tr:nth-of-type(even){
+    background-color: #DFEDF8 ;
+}
+
+.text{
+    text-align: left;
+}
+
 @media (min-width:600px) and (max-width:1024px){
     h1{
         font-size: 2em;
