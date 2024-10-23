@@ -88,7 +88,7 @@ footer{
     padding: 1em;
     background-color: #fff;
 }
-#homehero, #trailhero, #yurthero{
+#homehero, #trailhero, #yurthero, #rehero{
     height: 300px;
     background-size: 200% 100%;
     background-repeat: none;
@@ -103,6 +103,10 @@ footer{
 
 #yurthero{
     background-image: url('yurt.jpg');
+}
+
+#rehero{
+    background-image: url('coast.jpg');
 }
 #wrapper{
     background-color: #fff;
@@ -163,6 +167,17 @@ tr:nth-of-type(even){
     text-align: left;
 }
 
+form{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+    width: 80%;
+}
+
+input, textarea{
+    margin-bottom: .5em;
+
+}
 @media (min-width:600px) and (max-width:1024px){
     h1{
         font-size: 2em;
@@ -198,8 +213,20 @@ tr:nth-of-type(even){
         display: inline;
     }
 
-    #homehero, #yurthero, #trailhero{
+    #homehero, #yurthero, #trailhero, #rehero{
         background-size: 100% 100%;
+    }
+    form{
+        width: 60%;
+        display: grid;
+        grid-template-columns: 10em 1fr;
+        grid-gap: 1em; gap: 1em;
+        
+    }
+ 
+    #mySubmit{
+        grid-column: 2/3;
+        width: 9em;
     }
 
 }
@@ -226,7 +253,7 @@ tr:nth-of-type(even){
         border-bottom: none;
     }
 
-    #homehero, #yurthero, #trailhero{
+    #homehero, #yurthero, #trailhero, #rehero{
         background-size: 100% 100%;
     }
 
@@ -250,6 +277,5 @@ tr:nth-of-type(even){
     #desktop{
         display: inline;
     }
-
     
 }
